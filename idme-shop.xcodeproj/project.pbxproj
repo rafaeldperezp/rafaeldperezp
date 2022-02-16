@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4571374627BCB4E900049476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4571374527BCB4E900049476 /* AppDelegate.swift */; };
+		4571374A27BCB4E900049476 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 4571374827BCB4E900049476 /* Main.html */; };
+		4571374C27BCB4E900049476 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4571374B27BCB4E900049476 /* Icon.png */; };
+		4571374E27BCB4E900049476 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 4571374D27BCB4E900049476 /* Style.css */; };
+		4571375027BCB4E900049476 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4571374F27BCB4E900049476 /* Script.js */; };
+		4571375227BCB4E900049476 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4571375127BCB4E900049476 /* ViewController.swift */; };
+		4571375527BCB4E900049476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4571375327BCB4E900049476 /* Main.storyboard */; };
+		4571375727BCB4E900049476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4571375627BCB4E900049476 /* Assets.xcassets */; };
+		4571375F27BCB4EA00049476 /* idme-shop Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4571375E27BCB4EA00049476 /* idme-shop Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4571376427BCB4EA00049476 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4571376327BCB4EA00049476 /* SafariExtensionHandler.swift */; };
+		4571376627BCB4EA00049476 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4571376527BCB4EA00049476 /* SafariExtensionViewController.swift */; };
+		4571376927BCB4EA00049476 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4571376827BCB4EA00049476 /* script.js */; };
+		4571376B27BCB4EA00049476 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4571376A27BCB4EA00049476 /* ToolbarItemIcon.pdf */; };
+		4571376E27BCB4EA00049476 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4571376C27BCB4EA00049476 /* SafariExtensionViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4571376027BCB4EA00049476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4571373A27BCB4E900049476 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4571375D27BCB4EA00049476;
+			remoteInfo = "idme-shop Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4571377627BCB4EA00049476 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4571375F27BCB4EA00049476 /* idme-shop Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4571374227BCB4E900049476 /* idme-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idme-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4571374527BCB4E900049476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4571374927BCB4E900049476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		4571374B27BCB4E900049476 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4571374D27BCB4E900049476 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		4571374F27BCB4E900049476 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		4571375127BCB4E900049476 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4571375427BCB4E900049476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4571375627BCB4E900049476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4571375827BCB4EA00049476 /* idme_shop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = idme_shop.entitlements; sourceTree = "<group>"; };
+		4571375927BCB4EA00049476 /* idme-shop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "idme-shop.entitlements"; sourceTree = "<group>"; };
+		4571375E27BCB4EA00049476 /* idme-shop Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "idme-shop Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4571376327BCB4EA00049476 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		4571376527BCB4EA00049476 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		4571376827BCB4EA00049476 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		4571376A27BCB4EA00049476 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		4571376D27BCB4EA00049476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		4571376F27BCB4EA00049476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4571377027BCB4EA00049476 /* idme_shop_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = idme_shop_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4571373F27BCB4E900049476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4571375B27BCB4EA00049476 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4571373927BCB4E900049476 = {
+			isa = PBXGroup;
+			children = (
+				4571374427BCB4E900049476 /* idme-shop */,
+				4571376227BCB4EA00049476 /* idme-shop Extension */,
+				4571374327BCB4E900049476 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4571374327BCB4E900049476 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4571374227BCB4E900049476 /* idme-shop.app */,
+				4571375E27BCB4EA00049476 /* idme-shop Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4571374427BCB4E900049476 /* idme-shop */ = {
+			isa = PBXGroup;
+			children = (
+				4571374527BCB4E900049476 /* AppDelegate.swift */,
+				4571375127BCB4E900049476 /* ViewController.swift */,
+				4571375327BCB4E900049476 /* Main.storyboard */,
+				4571375627BCB4E900049476 /* Assets.xcassets */,
+				4571375827BCB4EA00049476 /* idme_shop.entitlements */,
+				4571375927BCB4EA00049476 /* idme-shop.entitlements */,
+				4571374727BCB4E900049476 /* Resources */,
+			);
+			path = "idme-shop";
+			sourceTree = "<group>";
+		};
+		4571374727BCB4E900049476 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4571374827BCB4E900049476 /* Main.html */,
+				4571374B27BCB4E900049476 /* Icon.png */,
+				4571374D27BCB4E900049476 /* Style.css */,
+				4571374F27BCB4E900049476 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4571376227BCB4EA00049476 /* idme-shop Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4571376327BCB4EA00049476 /* SafariExtensionHandler.swift */,
+				4571376527BCB4EA00049476 /* SafariExtensionViewController.swift */,
+				4571376C27BCB4EA00049476 /* SafariExtensionViewController.xib */,
+				4571376F27BCB4EA00049476 /* Info.plist */,
+				4571377027BCB4EA00049476 /* idme_shop_Extension.entitlements */,
+				4571376727BCB4EA00049476 /* Resources */,
+			);
+			path = "idme-shop Extension";
+			sourceTree = "<group>";
+		};
+		4571376727BCB4EA00049476 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4571376827BCB4EA00049476 /* script.js */,
+				4571376A27BCB4EA00049476 /* ToolbarItemIcon.pdf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4571374127BCB4E900049476 /* idme-shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4571377727BCB4EA00049476 /* Build configuration list for PBXNativeTarget "idme-shop" */;
+			buildPhases = (
+				4571373E27BCB4E900049476 /* Sources */,
+				4571373F27BCB4E900049476 /* Frameworks */,
+				4571374027BCB4E900049476 /* Resources */,
+				4571377627BCB4EA00049476 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4571376127BCB4EA00049476 /* PBXTargetDependency */,
+			);
+			name = "idme-shop";
+			productName = "idme-shop";
+			productReference = 4571374227BCB4E900049476 /* idme-shop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4571375D27BCB4EA00049476 /* idme-shop Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4571377327BCB4EA00049476 /* Build configuration list for PBXNativeTarget "idme-shop Extension" */;
+			buildPhases = (
+				4571375A27BCB4EA00049476 /* Sources */,
+				4571375B27BCB4EA00049476 /* Frameworks */,
+				4571375C27BCB4EA00049476 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "idme-shop Extension";
+			productName = "idme-shop Extension";
+			productReference = 4571375E27BCB4EA00049476 /* idme-shop Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4571373A27BCB4E900049476 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4571374127BCB4E900049476 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4571375D27BCB4EA00049476 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4571373D27BCB4E900049476 /* Build configuration list for PBXProject "idme-shop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4571373927BCB4E900049476;
+			productRefGroup = 4571374327BCB4E900049476 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4571374127BCB4E900049476 /* idme-shop */,
+				4571375D27BCB4EA00049476 /* idme-shop Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4571374027BCB4E900049476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571374C27BCB4E900049476 /* Icon.png in Resources */,
+				4571375527BCB4E900049476 /* Main.storyboard in Resources */,
+				4571375027BCB4E900049476 /* Script.js in Resources */,
+				4571374A27BCB4E900049476 /* Main.html in Resources */,
+				4571375727BCB4E900049476 /* Assets.xcassets in Resources */,
+				4571374E27BCB4E900049476 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4571375C27BCB4EA00049476 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571376E27BCB4EA00049476 /* SafariExtensionViewController.xib in Resources */,
+				4571376B27BCB4EA00049476 /* ToolbarItemIcon.pdf in Resources */,
+				4571376927BCB4EA00049476 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4571373E27BCB4E900049476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571375227BCB4E900049476 /* ViewController.swift in Sources */,
+				4571374627BCB4E900049476 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4571375A27BCB4EA00049476 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571376627BCB4EA00049476 /* SafariExtensionViewController.swift in Sources */,
+				4571376427BCB4EA00049476 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4571376127BCB4EA00049476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4571375D27BCB4EA00049476 /* idme-shop Extension */;
+			targetProxy = 4571376027BCB4EA00049476 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4571374827BCB4E900049476 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4571374927BCB4E900049476 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		4571375327BCB4E900049476 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4571375427BCB4E900049476 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4571376C27BCB4EA00049476 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4571376D27BCB4EA00049476 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4571377127BCB4EA00049476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4571377227BCB4EA00049476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4571377427BCB4EA00049476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "idme-shop Extension/idme_shop_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CCFUB77GUP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "idme-shop Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "idme-shop Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idme.shop.idme-shop.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4571377527BCB4EA00049476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "idme-shop Extension/idme_shop_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CCFUB77GUP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "idme-shop Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "idme-shop Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idme.shop.idme-shop.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4571377827BCB4EA00049476 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "idme-shop/idme-shop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CCFUB77GUP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "idme-shop";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idme.shop.idme-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4571377927BCB4EA00049476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "idme-shop/idme-shop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CCFUB77GUP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "idme-shop";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idme.shop.idme-shop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4571373D27BCB4E900049476 /* Build configuration list for PBXProject "idme-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4571377127BCB4EA00049476 /* Debug */,
+				4571377227BCB4EA00049476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4571377327BCB4EA00049476 /* Build configuration list for PBXNativeTarget "idme-shop Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4571377427BCB4EA00049476 /* Debug */,
+				4571377527BCB4EA00049476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4571377727BCB4EA00049476 /* Build configuration list for PBXNativeTarget "idme-shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4571377827BCB4EA00049476 /* Debug */,
+				4571377927BCB4EA00049476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4571373A27BCB4E900049476 /* Project object */;
+}
